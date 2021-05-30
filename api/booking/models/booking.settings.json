@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "bookings",
+  "info": {
+    "name": "booking"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "lastname": {
+      "type": "string"
+    },
+    "email": {
+      "type": "string"
+    },
+    "hotel": {
+      "type": "string"
+    },
+    "guests": {
+      "type": "integer"
+    },
+    "date": {
+      "type": "richtext"
+    }
+  }
+}
